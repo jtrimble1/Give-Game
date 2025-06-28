@@ -1,0 +1,40 @@
+{
+  "name": "givengame-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@clerk/clerk-react": "^5.31.4",
+    "autoprefixer": "^10.4.21",
+    "browserslist": "^4.24.5",
+    "caniuse-lite": "^1.0.30001718",
+    "electron-to-chromium": "^1.5.155",
+    "escalade": "^3.2.0",
+    "fraction.js": "^4.3.7",
+    "nanoid": "^3.3.11",
+    "node-releases": "^2.0.19",
+    "normalize-range": "^0.1.2",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.5.3",
+    "postcss-value-parser": "^4.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.6.0",
+    "react-router-dom": "^7.6.0",
+    "react-slick": "^0.30.3",
+    "scheduler": "^0.26.0",
+    "set-cookie-parser": "^2.7.1",
+    "slick-carousel": "^1.8.1",
+    "source-map-js": "^1.2.1",
+    "tailwindcss": "^4.1.7",
+    "update-browserslist-db": "^1.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

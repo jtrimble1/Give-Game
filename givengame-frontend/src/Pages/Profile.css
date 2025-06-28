@@ -1,0 +1,14 @@
+.profile-page {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .profile-pic {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .profile-info p {
+    margin: 0.5rem 0;
+  }

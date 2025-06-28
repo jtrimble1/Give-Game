@@ -1,0 +1,120 @@
+.role-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    min-height: 80vh;
+    background-color: #f8f9fa;
+  }
+  
+  .role-card {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .role-title {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+    color: #333;
+  }
+  
+  .role-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+  
+  .role-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .role-option input {
+    transform: scale(1.2);
+  }
+  
+  .next-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .next-button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .signup-wrapper {
+    padding: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .signup-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    padding: 0.6rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .add-email-btn {
+    margin-top: 0.5rem;
+    align-self: flex-start;
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .next-button {
+    padding: 0.8rem;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }

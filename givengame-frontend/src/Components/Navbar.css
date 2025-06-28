@@ -1,0 +1,231 @@
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+.welcome-message {
+  padding: 16px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 32px;
+  font-weight: 500;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-links a:hover {
+  color: #007bff;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-right input[type="text"] {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.navbar-right button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+} */
+
+/* .navbar-right .login-btn {
+  background-color: #3b82f6; 
+}
+
+.navbar-right .login-btn:hover {
+  background-color: #2563eb;
+}
+
+.navbar-right .register-btn {
+  background-color: #10b981;
+} */
+
+/* .navbar-right .register-btn:hover {
+  background-color: #059669;
+} */
+/* 
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 1rem;
+  cursor: pointer;
+} */
+
+.navbar-gfm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+.navbar-center {
+  display: flex;
+  align-items: center;
+  padding-left: 8rem;
+
+}
+
+.navbar-left {
+  gap: 1.5rem;
+}
+
+.navbar-center {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navbar-logo {
+  height: 40px;
+}
+
+.navbar-right {
+  gap: 1rem;
+}
+
+.search-bar {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+.auth-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.auth-btn.register {
+  color: #00b964; /* gofundme green or your primary */
+}
+
+.profile-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+/* Dropdown styling */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  transition: 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 0.75rem 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.logo-word {
+  color: #000;
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-word.game {
+  color: #e00000; /* red for "Game" */
+}
+
+.amp {
+  color: #888888; /* gray for & */
+  margin: 0 4px;
+  font-size: 1.5rem;
+}
+
+.logo-letter {
+  font-size: 2.2rem;
+  line-height: 1;
+  margin-right: 2px;
+}

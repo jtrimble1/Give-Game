@@ -1,0 +1,20 @@
+services:
+  api:
+    build: 
+      context: ./givengame-backend
+    working_dir: /givengame-backend
+    depends_on:
+      - db
+    ports:
+      - "8081:8081"
+  db:
+    image: postgres:latest
+    environment:
+      - DATABASE_HOST=givengame
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=docker
+    ports:
+      - "5432:5432"
+    volumes:
+      - $HOME/docker/volumes/postgres:/var/lib/postgresql/data
+     # - /Users/j.j./Desktop/DockerData:/var/lib/postgresql/data
