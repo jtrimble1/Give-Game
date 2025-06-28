@@ -16,10 +16,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    
+    "start": "npm start --prefix givengame-frontend",
     "start:backend": "docker compose build givengame-backend",
     "build": "npm start --prefix givengame-frontend",
-    "dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+    "dev": "concurrently \"npm run start\" \"npm run start:backend\""
   },
   "eslintConfig": {
     "extends": [
