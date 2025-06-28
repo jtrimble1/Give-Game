@@ -18,8 +18,8 @@
   "scripts": {
     
     "start:backend": "docker compose build givengame-backend",
-    "start:frontend": "npm start --prefix givengame-frontend",
-    "build": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+    "build": "npm start --prefix givengame-frontend",
+    "dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
   },
   "eslintConfig": {
     "extends": [
