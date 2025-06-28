@@ -3,9 +3,9 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import RolePage from './Pages/RolePage';
 import DynamicSignup from "./Pages/SignupPages/DynamicSignup";
-import CoachSignup from './Pages/SignupPages/CoachSignup';
-import ParentSignup from './Pages/SignupPages/ParentSignup';
-import SponsorSignup from './Pages/SignupPages/SponsorSignup';
+// import CoachSignup from './Pages/SignupPages/CoachSignup';
+// import ParentSignup from './Pages/SignupPages/ParentSignup';
+// import SponsorSignup from './Pages/SignupPages/SponsorSignup';
 import Home from './Pages/Home';
 import WhyGG from './Pages/WhyGG';
 import Gamers from './Pages/Gamers';
@@ -14,7 +14,7 @@ import Givers from './Pages/Givers';
 import AboutUs from './Pages/AboutUs';
 import ThankYou from './Pages/ThankYou';
 
-import { SignedIn, SignOutButton, useUser } from '@clerk/clerk-react';
+// import { SignedIn, SignOutButton, useUser } from '@clerk/clerk-react';
 import Profile from './Pages/Profile';
 
 function App() {

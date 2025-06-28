@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Banner.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { SignInButton, SignUpButton, SignedOut } from '@clerk/clerk-react';
+// import { SignInButton, SignUpButton, SignedOut } from '@clerk/clerk-react';
 
 
 
@@ -40,21 +40,21 @@ function Banner () {
   
   ]
 
-    const [currentIndex, setCurrentIndex] = useState(0);
+    // const [currentIndex, setCurrentIndex] = useState(0);
 
     const navigate = useNavigate();
 
-    const handlePrev = () => {
-      setCurrentIndex((prevIndex) => 
-        prevIndex === 0 ? images.length - 1 : prevIndex - 1
-      );
-    };
+    // const handlePrev = () => {
+    //   setCurrentIndex((prevIndex) => 
+    //     prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    //   );
+    // };
 
-    const handleNext = () => {
-      setCurrentIndex((prevIndex) => 
-        prevIndex === images.length -1 ? 0 : prevIndex + 1
-      );
-    };
+    // const handleNext = () => {
+    //   setCurrentIndex((prevIndex) => 
+    //     prevIndex === images.length -1 ? 0 : prevIndex + 1
+    //   );
+    // };
 
 
     return (
