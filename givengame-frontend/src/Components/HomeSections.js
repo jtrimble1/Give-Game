@@ -23,7 +23,7 @@ const teamMembers = [
 
     {
         name: 'Stephen Sallan',
-        role: 'Co-Founder and CTO',
+        role: 'Co-Founder and COO',
         background: `King's College London (MA), Hamilton College (BA)`,
         favorite_sport: 'Hockey, Baseball',
         bio: `Stephen brings extensive experience from both private and public sectors, along with years of administering millions of grant dollars in the non-profit sector. As a former middle school baseball coach and current Army Reserve member, he understands the importance of youth development and community service. He's passionate about civics and impacting communities at the local level.`,

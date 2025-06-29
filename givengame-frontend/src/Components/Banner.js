@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import { useNavigate } from 'react-router-dom';
+import { SignUpButton } from '@clerk/clerk-react';
 import './Banner.css'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -64,7 +65,10 @@ function Banner () {
         <h1 className="banner-heading">
           Become a <span className="giver-highlight">GIVER</span> to Help them <span className="highlight-red">GAME</span>
         </h1>
-        <button onClick={() => navigate('/role-page')}>Register Today!</button>
+        <h3>
+          (Full site coming August 2025! Scroll to meet our team talented members!)
+        </h3>
+        <SignUpButton mode="modal" redirectUrl="/thank-you">Register Today!</SignUpButton>
       </div>
 
       <Slider {...settings}>
