@@ -66,7 +66,7 @@ function Banner () {
           Become a <span className="giver-highlight">GIVER</span> to Help them <span className="highlight-red">GAME</span>
         </h1>
         <h3>
-          (Full site coming August 2025! Scroll to meet our team talented members!)
+          (Full site coming August 2025! Scroll to meet our talented team  members!)
         </h3>
         <SignUpButton mode="modal" redirectUrl="/thank-you">Register Today!</SignUpButton>
       </div>

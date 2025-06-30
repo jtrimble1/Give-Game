@@ -87,11 +87,8 @@ const { user } = useUser();
         <input className="search-bar" placeholder="Search Teams/Leagues..." />
 
         <SignedOut>
-          <SignInButton mode="modal" redirectUrl="/thank-you">
-            <button className="auth-btn">Sign In</button>
-          </SignInButton>
           <SignUpButton mode="modal" redirectUrl="/thank-you">
-            <button className="auth-btn register">Register</button>
+            <button className="auth-btn register"> Join or Sign In</button>
           </SignUpButton>
         </SignedOut>
 
