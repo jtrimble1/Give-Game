@@ -17,7 +17,7 @@ const teamMembers = [
         role: 'Lead Developer & CTO',
         favorite_sport: 'Football, Track & Field, Basketball',
         background: 'Maryville University (MS Cybersecurity) and United States Air Force Academy (BS Geoscience), US Space Force (7 Years)',
-        bio: 'Former collegiate and professional track & field athlete, represented Team USA on multiple occasions. I have been involved in sports essentially my entire life. I am passionate about finding ways to give back and helping others achieve their athletic goals',
+        bio: 'Former collegiate and professional track & field athlete, represented Team USA on multiple occasions. Jamiel has been involved in sports essentially his entire life. He is passionate about finding ways to give back and helping others achieve their athletic goals',
         image: '/Assets/IMG_3358_Original.JPG'
     },
 
