@@ -1,11 +1,13 @@
-import React from 'react';
-import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton, useUser, SignOutButton } from '@clerk/clerk-react'
+import React, { useState } from 'react';
+import { SignedIn, SignedOut, SignUpButton, useUser, SignOutButton } from '@clerk/clerk-react'
 import { Link } from "react-router-dom";
 import './Navbar.css';
 
 function Navbar() {
+
+  const [menuOpen, setMenuOpen] = useState(false); 
     
-const { user } = useUser();
+  const { user } = useUser();
 
     return (
       // *** first rendition ***
@@ -56,17 +58,17 @@ const { user } = useUser();
         <div className="dropdown">
           <button className="dropbtn">Donate</button>
           <div className="dropdown-content">
-            <Link to="/teams">By Team</Link>
-            <Link to="/leaguesy">By League</Link>
+            <Link to="/about-us">By Team</Link>
+            <Link to="/about-us">By League</Link>
           </div>
         </div>
 
         <div className="dropdown">
           <button className="dropbtn">Sponsors</button>
           <div className="dropdown-content">
-            <Link to="/">Corporate Sponsors</Link>
-            <Link to="/">Local Sponsors</Link>
-            <Link to="/">Donors</Link>
+            <Link to="/about-us">Corporate Sponsors</Link>
+            <Link to="/about-us">Local Sponsors</Link>
+            <Link to="/about-us">Donors</Link>
           </div>
         </div>
       </div>

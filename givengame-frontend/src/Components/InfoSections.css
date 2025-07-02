@@ -22,6 +22,21 @@
     flex-direction: column;
     justify-content: center;
   }
+
+
+@media (min-width: 600px) {
+  .info-card {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 900px) {
+  .info-card {
+    flex: 1 1 30%;
+    max-width: 30%;
+  }
+}
   
   .info-card:hover {
     transform: translateY(-5px);
