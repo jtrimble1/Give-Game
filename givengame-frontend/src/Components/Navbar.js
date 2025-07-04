@@ -85,7 +85,7 @@ function Navbar() {
         </Link>
       </div>
 
-      <div className="navbar-right">
+      <div className="navbar-right mobile-hide">
         <input className="search-bar" placeholder="Search Teams/Leagues..." />
 
         <SignedOut>
@@ -101,6 +101,22 @@ function Navbar() {
           <SignOutButton><button className="auth-btn">Logout</button></SignOutButton>
         </SignedIn>
       </div>
+      <div className="hamburger-icon" onClick={() => setMenuOpen(!menuOpen)}>
+        ☰
+      </div>
+
+      {/* Mobile menu dropdown */}
+      {menuOpen && (
+        <div className="mobile-menu">
+          <Link to="/about-us">About Us</Link>
+          <Link to="/teams">Teams</Link>
+          <Link to="/leagues">Leagues</Link>
+          <Link to="/profile">Profile</Link>
+          <button>Sign In</button>
+          <button>Register</button>
+        </div>
+      )}
+      
     </nav>
     )
 }
